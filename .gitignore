@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# build outputs
+.next/
+out/
+dist/
+build/
+
+# cache & metadata
+.DS_Store
+*.log
+*.tsbuildinfo
+next-env.d.ts
+
+# local env files
+.env*.local
+.env
+!.env.example
