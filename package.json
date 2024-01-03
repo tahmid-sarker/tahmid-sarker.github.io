@@ -1,0 +1,42 @@
+{
+  "name": "tahmid-sarker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tahmid Sarker personal portfolio",
+  "scripts": {
+    "clean": "node -e \"const fs=require('fs');['.next','out'].forEach(p=>fs.rmSync(p,{recursive:true,force:true}))\"",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4",
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.6.0",
+    "lucide-react": "^1.29.0",
+    "motion": "^13.0.0",
+    "next": "16.3.0",
+    "postcss": "^8.5.26",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-icons": "^5.7.0",
+    "sweetalert2": "^11.26.25",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.3.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "eslint": "^9",
+    "eslint-config-next": "^16.3.0",
+    "typescript": "^6.0.3"
+  },
+  "author": {
+    "name": "Tahmid Sarker",
+    "url": "https://tahmid-sarker.github.io"
+  }
+}
