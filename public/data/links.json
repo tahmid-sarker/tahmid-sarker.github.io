@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Email",
+    "url": "mailto:contact.tahmid.sarker@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "Calendly",
+    "url": "https://calendly.com/tahmid"
+  },
+  {
+    "id": 3,
+    "name": "GitHub",
+    "url": "https://github.com/tahmid-sarker"
+  },
+  {
+    "id": 4,
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/tahmid-sarker"
+  },
+  {
+    "id": 5,
+    "name": "Facebook",
+    "url": "https://www.facebook.com/tahmid.sarker"
+  },
+  {
+    "id": 6,
+    "name": "Instagram",
+    "url": "https://www.instagram.com/tahmid.sarker.mahi"
+  },
+  {
+    "id": 7,
+    "name": "Youtube",
+    "url": "https://www.youtube.com/@tahmid-sarker"
+  }
+]
