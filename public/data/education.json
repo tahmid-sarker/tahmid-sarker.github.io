@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "degree": "Bachelor of Science",
+    "major": "Software Engineering (Major in Data Science)",
+    "institution": "Daffodil International University",
+    "location": "Dhaka, Bangladesh",
+    "startDate": "Nov 2019",
+    "endDate": "Mar 2024",
+    "description": "Studied software engineering principles, algorithms, data structures, and modern web development technologies."
+  },
+  {
+    "id": 2,
+    "degree": "Higher Secondary",
+    "major": "Science",
+    "institution": "Sunamganj Government College",
+    "location": "Sunamganj, Bangladesh",
+    "startDate": "Jul 2017",
+    "endDate": "Jul 2019",
+    "description": "Completed higher secondary education with a focus on science stream."
+  },
+  {
+    "id": 3,
+    "degree": "Secondary",
+    "major": "Science",
+    "institution": "Government Jubilee High School",
+    "location": "Sunamganj, Bangladesh",
+    "startDate": "Jan 2011",
+    "endDate": "May 2017",
+    "description": "Completed secondary education with a focus on science subjects."
+  }
+]
