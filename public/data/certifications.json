@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Full-Stack Web Development Bootcamp",
+    "organization": "Udemy",
+    "issuedDate": "July 2024",
+    "link": "https://www.udemy.com/certificate/UC-75b47bf2-36b9-4bdc-9d57-e7be8d06fa82",
+    "description": "Comprehensive training in full-stack web development, covering both frontend and backend technologies."
+  },
+  {
+    "id": 2,
+    "title": "Complete Web Development",
+    "organization": "Programming Hero",
+    "issuedDate": "October 2025",
+    "link": "https://drive.google.com/file/d/1f5ASs-rF54lr5Z7SKVxRV7ULf4E-PJFb/preview",
+    "description": "Intensive coursework focused on modern web technologies and industrial practices."
+  }
+]

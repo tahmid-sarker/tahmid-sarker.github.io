@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "title": "Artificial Intelligence",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 2,
+    "title": "Business Analysis & Communication",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 3,
+    "title": "Compiler Design",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 4,
+    "title": "Computer Architecture",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 5,
+    "title": "Data Communication & Computer Networking",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 6,
+    "title": "Data Structures & Algorithms Analysis",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 7,
+    "title": "Database System",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 8,
+    "title": "Discrete Mathematics",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 9,
+    "title": "Information System Security",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 10,
+    "title": "Machine Learning Driven Data Analysis",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 11,
+    "title": "Management Information System",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 12,
+    "title": "Object-Oriented Programming & Design Patterns",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 13,
+    "title": "Operating System & System Programming",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 14,
+    "title": "Software Architecture & Design",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 15,
+    "title": "Software Development Project",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 16,
+    "title": "Software Engineering Design Capstone Project",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 17,
+    "title": "Software Engineering Web Application",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 18,
+    "title": "Software Project Management & Documentation",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 19,
+    "title": "Software Quality Assurance & Testing",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 20,
+    "title": "Software Requirement Specifications & Analysis",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 21,
+    "title": "Statistical Data Analysis",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 22,
+    "title": "System Analysis & Design Project",
+    "provider": "Daffodil International University"
+  },
+  {
+    "id": 23,
+    "title": "Theory of Computing",
+    "provider": "Daffodil International University"
+  }
+]

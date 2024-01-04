@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "position": "Member",
+    "organization": "Data Science Club",
+    "startDate": "Apr 2022",
+    "endDate": "Sep 2022",
+    "description": "Engaged in DIU DSC data science activities, and applied data science concepts."
+  },
+  {
+    "id": 2,
+    "position": "Competitive Programmer",
+    "organization": "Association for Computing Machinery",
+    "startDate": "Apr 2022",
+    "endDate": "Sep 2022",
+    "description": "Participated in competitive programming, and was involved with the DIU ACM Blue 8 team to solve complex problems and improve algorithmic skills."
+  },
+  {
+    "id": 3,
+    "position": "Co-founder",
+    "organization": "Ahoban Social & Cultural Organization",
+    "startDate": "Oct 2016",
+    "endDate": "Present",
+    "description": "Takes an active part in contributing to this social organization based in Sunamganj, Bangladesh."
+  },
+  {
+    "id": 4,
+    "position": "YES Friends",
+    "organization": "Transparency International Bangladesh",
+    "startDate": "Mar 2016",
+    "endDate": "Jan 2018",
+    "description": "Engaged in various anti-corruption activities during membership."
+  }
+]
