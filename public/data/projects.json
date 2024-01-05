@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Bangal",
+    "description": "A local client's e-commerce platform for premium Bangladeshi organic products with admin dashboard.",
+    "images": [
+      "/images/projects/Bangal.png",
+      "/images/projects/Bangal-admin.png"
+    ],
+    "liveUrls": [
+      {
+        "label": "Store",
+        "url": "https://tahmid-sarker.github.io/bangal/"
+      },
+      {
+        "label": "Admin",
+        "url": "https://tahmid-sarker.github.io/bangal/admin/"
+      }
+    ],
+    "sourceUrl": "https://github.com/tahmid-sarker/bangal",
+    "badge": "Local"
+  },
+  {
+    "id": 2,
+    "title": "ERP",
+    "description": "ERP system for managing sales, purchases, inventory, and accounting.",
+    "images": [
+      "/images/projects/ERP-Point.png"
+    ],
+    "liveUrl": "https://tahmid-sarker.github.io/erp/",
+    "sourceUrl": "https://github.com/tahmid-sarker/erp",
+    "badge": "Internal"
+  },
+  {
+    "id": 3,
+    "title": "Wincasoft",
+    "description": "A local client's software company website with content management system.",
+    "images": [
+      "/images/projects/wincasoft.png",
+      "/images/projects/wincasoft-cms.png"
+    ],
+    "liveUrls": [
+      {
+        "label": "Website",
+        "url": "https://wincasoft.com"
+      },
+      {
+        "label": "CMS",
+        "url": "https://cms.wincasoft.com"
+      }
+    ],
+    "sourceUrl": "",
+    "badge": "Local"
+  },
+  {
+    "id": 4,
+    "title": "AlphaTrack",
+    "description": "A German client's tracking and analytics platform for enterprise performance monitoring.",
+    "images": [
+      "/images/projects/AlphaTrack.png"
+    ],
+    "liveUrl": "https://alphatrack.app",
+    "sourceUrl": "",
+    "badge": "International"
+  },
+  {
+    "id": 5,
+    "title": "Matrimonial",
+    "description": "A matchmaking platform with user dashboard for Bengali singles and families.",
+    "images": [
+      "/images/projects/Bengal-Matrimony.png"
+    ],
+    "liveUrl": "https://tahmid-sarker.github.io/matrimonial/",
+    "sourceUrl": "https://github.com/tahmid-sarker/matrimonial",
+    "badge": "Showcase"
+  },
+  {
+    "id": 6,
+    "title": "Job Hunt",
+    "description": "A job portal with dashboard for job seekers and employers.",
+    "images": [
+      "/images/projects/Job-Hunt-Sync.png"
+    ],
+    "liveUrl": "https://tahmid-sarker.github.io/job-hunt/",
+    "sourceUrl": "https://github.com/tahmid-sarker/job-hunt",
+    "badge": "Showcase"
+  },
+  {
+    "id": 7,
+    "title": "Reviewers",
+    "description": "A product rating and service review platform with user dashboard.",
+    "images": [
+      "/images/projects/Rate-Cloud.png"
+    ],
+    "liveUrl": "https://tahmid-sarker.github.io/reviewers/",
+    "sourceUrl": "https://github.com/tahmid-sarker/reviewers",
+    "badge": "Showcase"
+  },
+  {
+    "id": 8,
+    "title": "Gardeners",
+    "description": "A marketplace connecting gardening professionals with clients.",
+    "images": [
+      "/images/projects/Gardener-Connect.png"
+    ],
+    "liveUrl": "https://tahmid-sarker.github.io/gardeners/",
+    "sourceUrl": "https://github.com/tahmid-sarker/gardeners",
+    "badge": "Showcase"
+  }
+]

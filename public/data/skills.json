@@ -1,0 +1,139 @@
+{
+  "core_concepts": {
+    "title": "Core Concepts",
+    "items": [
+      {
+        "name": "C/C++"
+      },
+      {
+        "name": "Java"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "TypeScript"
+      },
+      {
+        "name": "OOP"
+      },
+      {
+        "name": "Data Structures"
+      },
+      {
+        "name": "Algorithms"
+      },
+      {
+        "name": "Design Patterns"
+      },
+      {
+        "name": "SDLC"
+      }
+    ]
+  },
+  "frontend": {
+    "title": "Frontend",
+    "items": [
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "Tailwind CSS"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Redux"
+      },
+      {
+        "name": "Zustand"
+      },
+      {
+        "name": "Next.js"
+      },
+      {
+        "name": "Vue.js"
+      },
+      {
+        "name": "React Native"
+      },
+      {
+        "name": "TanStack Query"
+      }
+    ]
+  },
+  "backend": {
+    "title": "Backend",
+    "items": [
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "Express"
+      },
+      {
+        "name": "NestJS"
+      },
+      {
+        "name": "RESTful API"
+      },
+      {
+        "name": "JWT"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "Mongoose"
+      },
+      {
+        "name": "MySQL"
+      },
+      {
+        "name": "PostgreSQL"
+      },
+      {
+        "name": "Prisma"
+      },
+      {
+        "name": "GraphQL"
+      },
+      {
+        "name": "Socket.IO"
+      }
+    ]
+  },
+  "others": {
+    "title": "Other Tools",
+    "items": [
+      {
+        "name": "Git"
+      },
+      {
+        "name": "Github"
+      },
+      {
+        "name": "Vercel"
+      },
+      {
+        "name": "Cloudflare"
+      },
+      {
+        "name": "cPanel"
+      },
+      {
+        "name": "Postman"
+      },
+      {
+        "name": "Firebase"
+      },
+      {
+        "name": "Supabase"
+      }
+    ]
+  }
+}
