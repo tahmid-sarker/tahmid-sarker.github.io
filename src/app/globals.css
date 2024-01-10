@@ -1,0 +1,253 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* === CUSTOM BREAKPOINTS === */
+  --breakpoint-xs: 360px;
+  
+  /* === CORE COLOR TOKENS === */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  
+  /* === TYPOGRAPHY === */
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+  --font-accent: var(--font-accent);
+  
+  /* === BORDER RADIUS === */
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   LIGHT MODE — GitHub Light Default
+   Primer canvas-default / fg-default / success tokens
+   ═══════════════════════════════════════════════════════════════════════════ */
+:root {
+  color-scheme: light;
+  --background: #ffffff;           /* canvas-default */
+  --foreground: #1f2328;           /* fg-default */
+  
+  --card: #ffffff;
+  --card-foreground: #1f2328;
+  --popover: #ffffff;
+  --popover-foreground: #1f2328;
+  
+  --primary: #1f2328;
+  --primary-foreground: #ffffff;
+  
+  --secondary: #f6f8fa;            /* canvas-subtle */
+  --secondary-foreground: #1f2328;
+  
+  --muted: #f6f8fa;
+  --muted-foreground: #656d76;     /* fg-muted */
+  
+  --accent: #1f883d;               /* success.emphasis / btn-primary */
+  --accent-foreground: #ffffff;
+  --accent-hover: #1a7f37;         /* success.fg */
+  --accent-soft: rgba(31, 136, 61, 0.1);
+  
+  --destructive: #d1242f;          /* danger.fg */
+  --destructive-foreground: #ffffff;
+  
+  --border: #d0d7de;               /* border-default */
+  --input: #d0d7de;
+  --ring: #1f883d;
+  
+  --radius: 0.5rem;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   NIGHT MODE — GitHub Dark Default
+   Primer canvas-default / fg-default / success tokens
+   ═══════════════════════════════════════════════════════════════════════════ */
+.dark {
+  color-scheme: dark;
+  --background: #0d1117;           /* canvas-default */
+  --foreground: #e6edf3;           /* fg-default */
+  
+  --card: #161b22;                 /* canvas-subtle */
+  --card-foreground: #e6edf3;
+  --popover: #161b22;
+  --popover-foreground: #e6edf3;
+  
+  --primary: #e6edf3;
+  --primary-foreground: #0d1117;
+  
+  --secondary: #21262d;
+  --secondary-foreground: #e6edf3;
+  
+  --muted: #21262d;
+  --muted-foreground: #8b949e;     /* fg-muted */
+  
+  --accent: #3fb950;               /* success.fg */
+  --accent-foreground: #0d1117;
+  --accent-hover: #56d364;
+  --accent-soft: rgba(63, 185, 80, 0.15);
+  
+  --destructive: #f85149;          /* danger.fg */
+  --destructive-foreground: #ffffff;
+  
+  --border: #30363d;               /* border-default */
+  --input: #30363d;
+  --ring: #3fb950;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BASE LAYER
+   ═══════════════════════════════════════════════════════════════════════════ */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  /* Enforce pointer cursor on interactive elements ensuring project-wide consistency */
+  button, a, label, [role="button"], input[type="submit"], input[type="button"], input[type="checkbox"], input[type="radio"], select, area {
+    cursor: pointer;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+  }
+
+  /* Hide default scrollbar globally */
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    display: none;
+  }
+
+  /* Signature color - Black in light mode, White in dark mode */
+  .signature-color {
+    filter: brightness(0);
+  }
+  .dark .signature-color {
+    filter: brightness(0) invert(1);
+  }
+
+  html.lang-bn,
+  html.lang-bn body {
+    font-family: var(--font-bengali), var(--font-body), sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Custom thin scrollbar for specific elements */
+  .custom-scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: var(--accent) transparent;
+  }
+  .custom-scrollbar-thin::-webkit-scrollbar {
+    display: block;
+    width: 3px;
+  }
+  .custom-scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: var(--accent);
+    border-radius: 9999px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   UTILITIES
+   ═══════════════════════════════════════════════════════════════════════════ */
+@layer utilities {
+  /* Gradient text - Refined for both modes */
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(
+      135deg,
+      #1f2328 0%,
+      #1f883d 50%,
+      #1f2328 100%
+    );
+  }
+  
+  .dark .gradient-text {
+    background-image: linear-gradient(
+      135deg,
+      #e6edf3 0%,
+      #3fb950 50%,
+      #e6edf3 100%
+    );
+  }
+
+  /* Card hover - refined with light mode emphasis */
+  .card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+  .card-hover:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* Accent soft background utility */
+  .bg-accent-soft {
+    background-color: var(--accent-soft);
+  }
+  
+  /* Button glow - refined for both modes */
+  .btn-glow {
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px color-mix(in srgb, var(--accent) 10%, transparent);
+  }
+  .btn-glow:hover {
+    box-shadow: 0 4px 20px color-mix(in srgb, var(--accent) 25%, transparent);
+    transform: translateY(-1px);
+  }
+  
+  /* Hide scrollbar utility */
+  .custom-scrollbar-none {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .custom-scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Pulse glow animation - SUBTLE */
+  @keyframes pulse-glow-subtle {
+    0%, 100% {
+      opacity: 0.15;
+    }
+    50% {
+      opacity: 0.25;
+    }
+  }
+  
+  .animate-pulse-glow {
+    animation: pulse-glow-subtle 4s ease-in-out infinite;
+  }
+
+  /* Light mode specific card styling */
+  .light-card-shadow {
+    box-shadow: 
+      0 4px 6px -1px rgba(0, 0, 0, 0.07),
+      0 2px 4px -2px rgba(0, 0, 0, 0.05),
+      0 0 0 1px rgba(0, 0, 0, 0.03);
+  }
+}
